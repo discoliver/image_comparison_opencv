@@ -90,13 +90,13 @@ Compared to the test set result from [individual pixel comparison](https://githu
 #### Test with pure color and character, with poor prediction as only focus on color scheme.  
 ---
 ![luminance](test_result/lisa.png)  
----
+---  
 #### Test with pure color picture rotation.
 ![Color and mint](test_result/color_mint.png)   
----
+---  
 #### Test with contrast adjustment and photoshopped picture
 ![Contrast and Photoshop](test_result/bridge.png)  
----
+---  
 
 ## Solution Approach
 ### Background
@@ -104,7 +104,12 @@ As time permits, I have implemented this alternative approach to solve the image
 
 
 ### Thoughts Gathering
-Using the Structural Similarity Index (SSIM), we evaluate the group of pixels so we can easily determine differences due to slight image manipulations, tampering, adjustment. This approach is better than comparing individual pixel which could be affected by noise and image manipulations. SSIM could help us perceive the change in structural information of the image, such as adjusting the contrast or photoshopped overlay.
+Using the Structural Similarity Index (SSIM), we evaluate the group of pixels so we can easily determine differences due to slight image manipulations, tampering, adjustment. This approach is better than comparing individual pixel which could be affected by noise and image manipulations. SSIM could help us perceive the change in structural information of the image, such as adjusting the contrast or photoshopped overlay.  
+
+
+
+![slight modification](test_result/structural_similarity_index.png)  
+  
 
 With packages `cv2` for OpenCV bindings and `scikit-imag` for pre-definited Structural Similarity Index, this approach is easy to implement and maintain as well.
 
@@ -157,9 +162,9 @@ This project does not include much dependency but a few things below could help 
 ## Acknowledgments and License
 There are a few helpful examples and research help to shape this project, and they have demonstrated the different perspectives and methods to accomplish the test. Here are some of good references.  
 
-[Zenva](https://www.youtube.com/watch?v=-i3NQ-by2b8),Implementing Structural Similarity for Images。    
-[scikit-image](https://scikit-image.org/docs/dev/api/skimage.measure.html),image processing in python.  
-[Adrian Rosebrock](https://www.pyimagesearch.com/2017/06/19/image-difference-with-opencv-and-python/),Image Difference with OpenCV and Python.  
+[Zenva](https://www.youtube.com/watch?v=-i3NQ-by2b8), Implementing Structural Similarity for Images。    
+[scikit-image](https://scikit-image.org/docs/dev/api/skimage.measure.html), image processing in python.  
+[Adrian Rosebrock](https://www.pyimagesearch.com/2017/06/19/image-difference-with-opencv-and-python/), Image Difference with OpenCV and Python.  
 
 This project is licensed under the MIT License.
 
