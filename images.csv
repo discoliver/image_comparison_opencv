@@ -1,0 +1,10 @@
+﻿image1,image2
+/Users/boranwang/Documents/github/image_comparison_opencv/images/mint.png,/Users/boranwang/Documents/github/image_comparison_opencv/images/mint_light.png
+/Users/boranwang/Documents/github/image_comparison_opencv/images/mint.png,/Users/boranwang/Documents/github/image_comparison_opencv/images/mint_moderate.png
+/Users/boranwang/Documents/github/image_comparison_opencv/images/mint.png,/Users/boranwang/Documents/github/image_comparison_opencv/images/mint_heavy.png
+/Users/boranwang/Documents/github/image_comparison_opencv/images/mint.png,/Users/boranwang/Documents/github/image_comparison_opencv/images/mint_heavy_rotate.png
+/Users/boranwang/Documents/github/image_comparison_opencv/images/lisa.png,/Users/boranwang/Documents/github/image_comparison_opencv/images/lisa_ luminance.png
+/Users/boranwang/Documents/github/image_comparison_opencv/images/big_green.png,/Users/boranwang/Documents/github/image_comparison_opencv/images/small_mint.png
+/Users/boranwang/Documents/github/image_comparison_opencv/images/red.png,/Users/boranwang/Documents/github/image_comparison_opencv/images/small_mint.png
+/Users/boranwang/Documents/github/image_comparison_opencv/images/bridge.png,/Users/boranwang/Documents/github/image_comparison_opencv/images/bridge_contrast.png
+/Users/boranwang/Documents/github/image_comparison_opencv/images/bridge_contrast.png,/Users/boranwang/Documents/github/image_comparison_opencv/images/bridge_modified.png
