@@ -1,7 +1,7 @@
 # Image Comparison - Alternative Approach with OpenCV  
 
 
-> this is another alternative approach to solve the image comparison task, which might not contains as much as detailed documentation as the pixel [comparison approach](https://github.com/discoliver/image_comparison).  
+> this is another alternative approach to solve the image comparison task, which might not contains as much as detailed documentation as the [pixel comparison approach](https://github.com/discoliver/image_comparison).  
 
 
 ## Table of contents .
